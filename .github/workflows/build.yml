@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - { "py": "3.13", "tox_env": "py313-cov" }
-          - { "py": "3.12", "tox_env": "py313" }
+          - { "py": "3.13", "tox_env": "py313" }
           - { "py": "3.12", "tox_env": "py312" }
           - { "py": "3.11", "tox_env": "py311" }
           - { "py": "3.10", "tox_env": "py310" }
